@@ -6,7 +6,7 @@ const App=() => {
     //const[posi,setposi]=useState(0);
     const[ballPosition,setBallPosition]=useState({left: 0,top: 0});
     
-    const handleListener(event)=>{
+    const handleListener=(event)=>{
         switch(event.keyCode){
             case 39:
               setBallPosition({
